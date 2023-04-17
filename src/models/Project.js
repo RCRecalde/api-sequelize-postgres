@@ -11,7 +11,7 @@ export const Project = sequelize.define('projects', {
     name: {
         type:DataTypes.STRING
     },
-    prority: {
+    priority: {
         type:DataTypes.INTEGER
     },
     description: {
